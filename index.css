@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+    text-align: center;
+    font-family: monospace;
+}
+
+input {
+    font-size: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: transparent;
+    padding-left: 10px;
+}
+
+.Enter {
+    padding: 5px;
+    font-size: 40px;
+    background: black;
+    color: white;
+    border: 2px soild gray;
+    border-radius: 20px;
+}
+
+.contant {
+    display: none;
+    font-size: 30px;
+    color: red;
+    text-shadow: 0 0 9px blue,
+        0 0 7px #fff,
+        0 0 10px #fff;
+}
+
+.heart {
+    animation: zoom 0.2s linear;
+    animation-iteration-count: infinite;
+}
+
+.ans button {
+    background: red;
+    color: white;
+    border: 2px soild gray;
+    border-radius: 20px;
+}
+
+select {
+    background: red;
+    color: #fff;
+    width: 50px;
+    border-radius: 20px;
+    border: #fff;
+    height: 15px;
+}
